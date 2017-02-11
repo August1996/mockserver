@@ -69,7 +69,7 @@ git clone https://github.com/August1996/mockserver
 进入项目工作目录并且启动服务器
 ```bash
 cd mockserver
-python manage.py runserver
+python manage.py runserver 0.0.0.0:8080
 ```
 
 如果启动成功,会返回下面响应
@@ -79,15 +79,15 @@ Performing system checks...
 System check identified no issues (0 silenced).
 February 11, 2017 - 06:08:22
 Django version 1.8.6, using settings 'mockserver.settings'
-Starting development server at http://127.0.0.1:8000/
+Starting development server at http://192.168.0.102:8080/
 Quit the server with CONTROL-C.
 ```
 
 ## 使用
 ### 管理页面
 #### 地址
-如果服务器地址为`http://127.0.0.1:8000/`
-那么请打开`http://127.0.0.1:8000/admin`
+如果服务器地址为`http://192.168.0.102:8080/`
+那么请打开`http://192.168.0.102:8080/admin`
 
 ![登录界面](https://raw.githubusercontent.com/August1996/mockserver/master/screenshots/login.png)
 
@@ -160,7 +160,7 @@ Json:
 ![添加Response](https://raw.githubusercontent.com/August1996/mockserver/master/screenshots/add_response.png)
 
 ### 访问
-**最后我们访问`http://127.0.0.1:8000/test/register`这个地址,MockServer就会随机返回上面的一种结果**
+**最后我们访问`http://192.168.0.102:8080/test/register`这个地址,MockServer就会随机返回上面的一种结果**
 
 ![结果返回](https://raw.githubusercontent.com/August1996/mockserver/master/screenshots/result.png)
 
