@@ -12,7 +12,7 @@ defaultResponse = '''{
 }'''
 
 def createJSONResponse(text):
-    return HttpResponse(text,content_type = "application/json")
+    return HttpResponse(text,content_type = "application/json;charset=utf-8")
 
 # Create your views here.
 def server(request,api = None,router = None):

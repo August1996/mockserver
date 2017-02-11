@@ -5,47 +5,84 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 ALLOWED_HOSTS	mockserver/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
-AUTH_PASSWORD_VALIDATORS	mockserver/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
+API	mockserver/server/admin.py	/^from mockserver.server.models import API,Router,Response$/;"	kind:namespace	line:4
+API	mockserver/server/models.py	/^class API(models.Model):$/;"	kind:class	line:7
+API	mockserver/server/views.py	/^from mockserver.server.models import API,Router,Response$/;"	kind:namespace	line:4
+APIAdmin	mockserver/server/admin.py	/^class APIAdmin(admin.ModelAdmin):$/;"	kind:class	line:10
+AUTH_PASSWORD_VALIDATORS	mockserver/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:90
 AppConfig	mockserver/server/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
 BASE_DIR	mockserver/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
-DATABASES	mockserver/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
+DATABASES	mockserver/settings.py	/^DATABASES = {$/;"	kind:variable	line:79
 DEBUG	mockserver/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+HttpResponse	mockserver/server/views.py	/^from django.http import HttpResponse$/;"	kind:namespace	line:3
 INSTALLED_APPS	mockserver/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
-LANGUAGE_CODE	mockserver/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:107
-MIDDLEWARE_CLASSES	mockserver/settings.py	/^MIDDLEWARE_CLASSES = [$/;"	kind:variable	line:42
-ROOT_URLCONF	mockserver/settings.py	/^ROOT_URLCONF = 'mockserver.urls'$/;"	kind:variable	line:53
-STATIC_URL	mockserver/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:121
+LANGUAGE_CODE	mockserver/settings.py	/^LANGUAGE_CODE = 'zh-CN'$/;"	kind:variable	line:109
+MIDDLEWARE_CLASSES	mockserver/settings.py	/^MIDDLEWARE_CLASSES = [$/;"	kind:variable	line:44
+ROOT_URLCONF	mockserver/settings.py	/^ROOT_URLCONF = 'mockserver.urls'$/;"	kind:variable	line:55
+Response	mockserver/server/admin.py	/^from mockserver.server.models import API,Router,Response$/;"	kind:namespace	line:4
+Response	mockserver/server/models.py	/^class Response(models.Model):$/;"	kind:class	line:22
+Response	mockserver/server/views.py	/^from mockserver.server.models import API,Router,Response$/;"	kind:namespace	line:4
+ResponseAdmin	mockserver/server/admin.py	/^class ResponseAdmin(admin.ModelAdmin):$/;"	kind:class	line:21
+Router	mockserver/server/admin.py	/^from mockserver.server.models import API,Router,Response$/;"	kind:namespace	line:4
+Router	mockserver/server/models.py	/^class Router(models.Model):$/;"	kind:class	line:14
+Router	mockserver/server/views.py	/^from mockserver.server.models import API,Router,Response$/;"	kind:namespace	line:4
+RouterAdmin	mockserver/server/admin.py	/^class RouterAdmin(admin.ModelAdmin):$/;"	kind:class	line:15
+STATIC_URL	mockserver/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:123
 ServerConfig	mockserver/server/apps.py	/^class ServerConfig(AppConfig):$/;"	kind:class	line:4
-TEMPLATES	mockserver/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
-TIME_ZONE	mockserver/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:109
+TEMPLATES	mockserver/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:57
+TIME_ZONE	mockserver/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:111
 TestCase	mockserver/server/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
-USE_I18N	mockserver/settings.py	/^USE_I18N = True$/;"	kind:variable	line:111
-USE_L10N	mockserver/settings.py	/^USE_L10N = True$/;"	kind:variable	line:113
-USE_TZ	mockserver/settings.py	/^USE_TZ = True$/;"	kind:variable	line:115
-WSGI_APPLICATION	mockserver/settings.py	/^WSGI_APPLICATION = 'mockserver.wsgi.application'$/;"	kind:variable	line:71
+USE_I18N	mockserver/settings.py	/^USE_I18N = True$/;"	kind:variable	line:113
+USE_L10N	mockserver/settings.py	/^USE_L10N = True$/;"	kind:variable	line:115
+USE_TZ	mockserver/settings.py	/^USE_TZ = True$/;"	kind:variable	line:117
+WSGI_APPLICATION	mockserver/settings.py	/^WSGI_APPLICATION = 'mockserver.wsgi.application'$/;"	kind:variable	line:73
 __init__.py	mockserver/__init__.py	1;"	kind:file	line:1
 __init__.py	mockserver/server/__init__.py	1;"	kind:file	line:1
-__init__.py	mockserver/server/migrations/__init__.py	1;"	kind:file	line:1
-admin	mockserver/server/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+__unicode__	mockserver/server/models.py	/^    def __unicode__(self):$/;"	kind:member	line:10
+__unicode__	mockserver/server/models.py	/^    def __unicode__(self):$/;"	kind:member	line:18
+__unicode__	mockserver/server/models.py	/^    def __unicode__(self):$/;"	kind:member	line:27
+admin	mockserver/server/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:3
 admin	mockserver/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
 admin.py	mockserver/server/admin.py	1;"	kind:file	line:1
+api	mockserver/server/models.py	/^    api = models.ForeignKey(API,verbose_name = '路由服务器')               # 隶属的API$/;"	kind:variable	line:17
 application	mockserver/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
 apps.py	mockserver/server/apps.py	1;"	kind:file	line:1
-execute_from_command_line	manage.py	/^    from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+createJSONResponse	mockserver/server/views.py	/^def createJSONResponse(text):$/;"	kind:function	line:14
+delay	mockserver/server/models.py	/^    delay = models.IntegerField(verbose_name = '响应延迟')               # 服务器延迟多久返回$/;"	kind:variable	line:25
+execute_from_command_line	manage.py	/^    from django.core.management import execute_from_command_line$/;"	kind:namespace	line:9
 get_wsgi_application	mockserver/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+index	mockserver/server/views.py	/^def index(request):$/;"	kind:function	line:61
+index	mockserver/urls.py	/^from mockserver.server.views import server,index$/;"	kind:namespace	line:18
+isTextEmpty	mockserver/server/util.py	/^def isTextEmpty(text):$/;"	kind:function	line:3
+json	mockserver/server/models.py	/^    json = models.TextField()    # 返回的json内容$/;"	kind:variable	line:24
+list_display	mockserver/server/admin.py	/^    list_display = ('name', 'path')         #把字段信息全部显示出来$/;"	kind:variable	line:11
+list_display	mockserver/server/admin.py	/^    list_display = ('name', 'path')$/;"	kind:variable	line:16
+list_display	mockserver/server/admin.py	/^    list_display = ('name','delay')$/;"	kind:variable	line:22
 manage.py	manage.py	1;"	kind:file	line:1
-models	mockserver/server/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models	mockserver/server/models.py	/^from django.db import models$/;"	kind:namespace	line:2
 models.py	mockserver/server/models.py	1;"	kind:file	line:1
 name	mockserver/server/apps.py	/^    name = 'server'$/;"	kind:variable	line:5
-os	manage.py	/^import os$/;"	kind:namespace	line:2
+name	mockserver/server/models.py	/^    name = models.CharField(max_length = 32,verbose_name = '响应名称')    # Response名称,用于显示$/;"	kind:variable	line:23
+name	mockserver/server/models.py	/^    name = models.CharField(max_length = 32,verbose_name = '服务器名称')    # API名称,用于显示$/;"	kind:variable	line:8
+name	mockserver/server/models.py	/^    name = models.CharField(max_length = 32,verbose_name = '路由名称')    # 路由名称,用于显示$/;"	kind:variable	line:15
+os	manage.py	/^import os$/;"	kind:namespace	line:3
 os	mockserver/settings.py	/^import os$/;"	kind:namespace	line:13
 os	mockserver/wsgi.py	/^import os$/;"	kind:namespace	line:10
-render	mockserver/server/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+path	mockserver/server/models.py	/^    path = models.CharField(max_length = 128,verbose_name = '路由路径')   # 路由路径,如果对应的API.path是uLink,router.path为register,那么地址为http:\/\/localhost\/uLink\/register$/;"	kind:variable	line:16
+path	mockserver/server/models.py	/^    path = models.CharField(max_length = 32,verbose_name = '服务器根路径')    # API路径,如果是uLink,那么地址为http:\/\/localhost\/uLink$/;"	kind:variable	line:9
+random	mockserver/server/views.py	/^import random$/;"	kind:namespace	line:6
+render	mockserver/server/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:2
+router	mockserver/server/models.py	/^    router = models.ForeignKey(Router,verbose_name = '响应路由')     # 隶属的路由$/;"	kind:variable	line:26
+server	mockserver/server/views.py	/^def server(request,api = None,router = None):$/;"	kind:function	line:18
+server	mockserver/urls.py	/^from mockserver.server.views import server,index$/;"	kind:namespace	line:18
 settings.py	mockserver/settings.py	1;"	kind:file	line:1
-sys	manage.py	/^import sys$/;"	kind:namespace	line:3
+sys	manage.py	/^import sys$/;"	kind:namespace	line:4
 tests.py	mockserver/server/tests.py	1;"	kind:file	line:1
+time	mockserver/server/views.py	/^import time$/;"	kind:namespace	line:7
 url	mockserver/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
-urlpatterns	mockserver/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urlpatterns	mockserver/urls.py	/^urlpatterns = [$/;"	kind:variable	line:21
 urls.py	mockserver/urls.py	1;"	kind:file	line:1
+util	mockserver/server/views.py	/^from mockserver.server import util$/;"	kind:namespace	line:5
+util.py	mockserver/server/util.py	1;"	kind:file	line:1
 views.py	mockserver/server/views.py	1;"	kind:file	line:1
 wsgi.py	mockserver/wsgi.py	1;"	kind:file	line:1
