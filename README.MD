@@ -101,7 +101,7 @@ mockserver
 ![管理界面](https://raw.githubusercontent.com/August1996/mockserver/master/screenshots/admin.png)
 
 #### 添加接口
-##### 组成
+##### API组成
 一个接口由三部分组成
 
 名称|意义
