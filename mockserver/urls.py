@@ -19,7 +19,7 @@ from mockserver.server.views import server,index
 
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    url(r'^admin/?', admin.site.urls),
     url(r'(.*?)/(.*)', server),
     url(r'', index),
 ]
