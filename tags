@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	mockserver/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	mockserver/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
+AppConfig	mockserver/server/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	mockserver/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+DATABASES	mockserver/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
+DEBUG	mockserver/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	mockserver/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	mockserver/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:107
+MIDDLEWARE_CLASSES	mockserver/settings.py	/^MIDDLEWARE_CLASSES = [$/;"	kind:variable	line:42
+ROOT_URLCONF	mockserver/settings.py	/^ROOT_URLCONF = 'mockserver.urls'$/;"	kind:variable	line:53
+STATIC_URL	mockserver/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:121
+ServerConfig	mockserver/server/apps.py	/^class ServerConfig(AppConfig):$/;"	kind:class	line:4
+TEMPLATES	mockserver/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
+TIME_ZONE	mockserver/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:109
+TestCase	mockserver/server/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	mockserver/settings.py	/^USE_I18N = True$/;"	kind:variable	line:111
+USE_L10N	mockserver/settings.py	/^USE_L10N = True$/;"	kind:variable	line:113
+USE_TZ	mockserver/settings.py	/^USE_TZ = True$/;"	kind:variable	line:115
+WSGI_APPLICATION	mockserver/settings.py	/^WSGI_APPLICATION = 'mockserver.wsgi.application'$/;"	kind:variable	line:71
+__init__.py	mockserver/__init__.py	1;"	kind:file	line:1
+__init__.py	mockserver/server/__init__.py	1;"	kind:file	line:1
+__init__.py	mockserver/server/migrations/__init__.py	1;"	kind:file	line:1
+admin	mockserver/server/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	mockserver/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin.py	mockserver/server/admin.py	1;"	kind:file	line:1
+application	mockserver/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	mockserver/server/apps.py	1;"	kind:file	line:1
+execute_from_command_line	manage.py	/^    from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+get_wsgi_application	mockserver/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+manage.py	manage.py	1;"	kind:file	line:1
+models	mockserver/server/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	mockserver/server/models.py	1;"	kind:file	line:1
+name	mockserver/server/apps.py	/^    name = 'server'$/;"	kind:variable	line:5
+os	manage.py	/^import os$/;"	kind:namespace	line:2
+os	mockserver/settings.py	/^import os$/;"	kind:namespace	line:13
+os	mockserver/wsgi.py	/^import os$/;"	kind:namespace	line:10
+render	mockserver/server/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+settings.py	mockserver/settings.py	1;"	kind:file	line:1
+sys	manage.py	/^import sys$/;"	kind:namespace	line:3
+tests.py	mockserver/server/tests.py	1;"	kind:file	line:1
+url	mockserver/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
+urlpatterns	mockserver/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urls.py	mockserver/urls.py	1;"	kind:file	line:1
+views.py	mockserver/server/views.py	1;"	kind:file	line:1
+wsgi.py	mockserver/wsgi.py	1;"	kind:file	line:1
